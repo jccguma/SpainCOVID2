@@ -33,7 +33,7 @@ export const covidMarch2020: ResultEntry[] = [
     value: 6,
   },
   {
-    name: "Castilla-La Mancha",
+    name: "Castilla La Mancha",
     value: 16,
   },
   {

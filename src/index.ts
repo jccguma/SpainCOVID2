@@ -31,11 +31,11 @@ const color = d3
   );
   
   const maxcases = Math.max(maxApril, maxMarch);
-
+  
   const affectedRadiusScale = d3
-  .scaleLinear()
-  .domain([0, maxcases])
-  .range([0, 50]);
+  .scaleThreshold<number, number>()
+  .domain([0, 30, 100, 200, 100000, 300000, 800000])
+  .range([0, 5, 10, 15, 20, 35, 45, 50]);
 
   let datos = covidMarch2020;
 
