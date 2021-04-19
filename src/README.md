@@ -1,0 +1,3 @@
+# SpainCOVID
+
+Mandatory task 
