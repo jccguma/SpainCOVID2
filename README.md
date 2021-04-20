@@ -1,18 +1,6 @@
-# Pinning locations + scale
+This file is part of the mandatory tasks within the MSc. in Advanced Analytics on Big Data at University of Malaga (Spain) in collaboration with Lemoncode.
 
-Our boss liked a lot the map we have developed, now he wants to focus on Spain affection by City, he wants to
-display a map pinning affected locations and scaling that pin according the number of cases affected, something like:
-
-![map affected coronavirus](./content/chart.png "affected coronavirus")
-
-codesandbox: https://codesandbox.io/s/hopeful-ellis-rlczx
-
-We have to face three challenges here:
-
-- Place pins on a map based on location.
-- Scale pin radius based on affected number.
-- Spain got canary island that is a territory placed far away, we need to cropt that islands and paste them in a visible
-  place in the map.
+The following lines describe the process to deploy a possible solution according to the source provided by Lemoncode.
 
 # Steps
 
